@@ -11,7 +11,16 @@ public class App {
                 .age(25)
                 .build();
 
-        System.out.println(student);
+        Product product = Product
+                .builder()
+                .id(1)
+                .name("Item 1")
+                .price(23.0)
+                .discount(12.5)
+                .image("image.jpg")
+                .build();
+
+        System.out.println(product);
     }
 
 }
